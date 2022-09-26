@@ -33,7 +33,6 @@ public class LoginController {
             // response gagal
             return null;
         }
-
         //kita buatkan accesstoken
         String accessToken = UUID.randomUUID().toString();
         return accessToken;
