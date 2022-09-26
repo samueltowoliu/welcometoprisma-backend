@@ -1,5 +1,7 @@
 package id.ac.prisma.siapmobilebackend.controlers;
 
+import java.util.UUID;
+
 public class LoginController {
 
     String accessToken = "";
@@ -14,6 +16,7 @@ public class LoginController {
      */
 
     public String login(String email, String password) {
+        //validasi
         if (email == null) {
             // response gagal email salah
             return null;
@@ -23,7 +26,7 @@ public class LoginController {
             return null;
         }
         if (password == null) {
-            // response gagal
+            // response gagal password salah
             return null;
         }
         if (password == "") {
@@ -32,11 +35,7 @@ public class LoginController {
         }
 
         //kita buatkan accesstoken
-        String accessToken = "";
-        accessToken = "sdasdasda";
-        //selesai membuat access token
-
-        //response access token
+        String accessToken = UUID.randomUUID().toString();
         return accessToken;
     }
 }
