@@ -1,7 +1,13 @@
 package id.ac.prisma.siapmobilebackend.controlers;
 
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.bind.annotation.RestController;
+
 import java.util.UUID;
 
+@RestController
+@RequestMapping(value = {"/login"})
 public class LoginController {
 
     String accessToken = "";
@@ -15,6 +21,7 @@ public class LoginController {
      * jika valid maka buatkan  accsessToken, jika tidak kasi response gagal
      */
 
+    @RequestMapping(value = "/login", method = RequestMethod.POST, produces = "application/json")
     public String login(String email, String password) {
         //validasi
         if (email == null) {
