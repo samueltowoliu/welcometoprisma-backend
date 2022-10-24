@@ -1,6 +1,5 @@
-package id.ac.prisma.siapmobilebackend.controlers;
+package id.ac.prisma.siapmobilebackend.controllers;
 
-import id.ac.prisma.siapmobilebackend.models.LoginRequest;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;

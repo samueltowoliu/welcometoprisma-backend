@@ -1,4 +1,4 @@
-package id.ac.prisma.siapmobilebackend.controlers;
+package id.ac.prisma.siapmobilebackend.controllers;
 
 public class LogoutController {
     String e;

@@ -1,4 +1,4 @@
-package id.ac.prisma.siapmobilebackend.controlers;
+package id.ac.prisma.siapmobilebackend.controllers;
 
 import id.ac.prisma.siapmobilebackend.data.model.TbUser;
 import id.ac.prisma.siapmobilebackend.data.repo.TbUserRepository;
