@@ -1,4 +1,4 @@
-package id.ac.prisma.siapmobilebackend.services;
+package id.ac.prisma.welcometoprismabackend.services;
 
 public class AuthService {
     public boolean emailAndPasswordValidation(String email, String password) {

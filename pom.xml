@@ -9,10 +9,10 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>id.ac.prisma</groupId>
-	<artifactId>siapmobilebackend</artifactId>
+	<artifactId>welcometoprismabackend</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>siapmobilebackend</name>
-	<description>project siapmobile backend</description>
+	<name>welcometoprismabackend</name>
+	<description>project welcometoprisma backend</description>
 	<properties>
 		<java.version>11</java.version>
 	</properties>
